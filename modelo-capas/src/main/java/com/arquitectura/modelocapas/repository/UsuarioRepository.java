@@ -12,6 +12,6 @@ import java.util.List;
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
 
     // Definición de los métodos de acceso a datos, consutas y query methods
-    List<Usuario> findByCorreo(String correo);
+    Usuario findByCorreo(String correo);
 
 }
